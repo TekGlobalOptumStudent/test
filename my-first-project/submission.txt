@@ -1,0 +1,77 @@
+    1  ssh-keygen -t rsa -b 4096 -C "suganiza@yahoo.com"
+    2  ssh-keygen -t rsa -b 4096 -C suganiza@yahoo.com
+    3  ssh-keygen -t rsa -b 4096 -C suganiza@yahoo.com
+    4  ~/.profile
+    5  ~/.bashrc
+    6  copy > ~/.bashrc
+    7  exit
+    8  eval $(ssh-agent -s)
+    9  ssh-add ~/.ssh/id_rsa
+   10  clip < ~/.ssh/id_rsa.pub
+   11  ssh -T git@github.com
+   12  ssh -T -p 442 git@ssh.github.com
+   13  ssh -T -p 443 git@ssh.github.com
+   14  git status
+   15  cd
+   16  ls
+   17  dir
+   18  cd Documents/Github
+   19  ls
+   20  cd OHCA
+   21  git status
+   22  cd
+   23  dir
+   24  cd Documents/Github
+   25  dir
+   26  dir
+   27  cd Photo-Library
+   28  cd ..
+   29  dir
+   30  cd photos23
+   31  dir
+   32  git remote add upstream git@github.com:sau23/Photo-Library.git
+   33  git push upstream master
+   34  git push --tags upstream
+   35  dir
+   36  cd ..
+   37  dir
+   38  dir
+   39  dir
+   40  cd androidchess23
+   41  dor
+   42  dir
+   43  git remote add upstream git@github.com:sau23/Android-Chess.git
+   44  git push upstream master
+   45  git push --tags upstream
+   46  exit
+   47  ruby --version
+   48  whoami
+   49  cd ~
+   50  pwd
+   51  explorer .
+   52  explorer .
+   53  mkdir dev
+   54  cd dev
+   55  mkdir my-first-project
+   56  cd my-first-project/
+   57  mkdir empty-directory
+   58  mkdir non-empty-directory
+   59  cd non-empty-directory/
+   60  touch some-file
+   61  touch some-text-file.txt
+   62  touch some-webpage-file.html
+   63  touch some-mp3-file.mp3
+   64  ls
+   65  mkdir child-directory-1 child-directory-2
+   66  ls
+   67  nano some-text-file.txt
+   68  cat some-text-file.txt 
+   69  nano some-text-file.txt 
+   70  cat some-text-file.txt 
+   71  cd ..
+   72  rm -r empty-directory
+   73  ls
+   74  rm -rf non-empty-directory
+   75  ls
+   76  history
+   77  history > submission.txt
