@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            background-color: green;
+        }
+        div > span{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Span that come immediately after any p. Not This One</p>
+        <span>Nope, not this one</span>
+        <span>
+            <span>Hello</span>
+            This one fits the Des.
+        </span>
+    </div>
+
+    <div>
+        <span>Nope, not this one</span>
+        <p>Paragraph 2</p>
+        <span>
+            Span that come immediately after any p. This one fits also.
+        </span>
+    </div>
+</body>   
+</html>
