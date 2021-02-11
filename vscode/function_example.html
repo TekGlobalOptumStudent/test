@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function days(year, month){
+            var ret = 0;
+            switch(month){
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    ret = 31;
+                    break;
+                case 2:
+                    ret = year % 4 == 0 ? 29 : 28;
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    ret = 30;
+                default:
+                    break;
+            }
+            return ret;
+        }
+        var input = prompt("Enter year and month").split(" ");
+        document.write("<h1>" + days(parseInt(input[0]), parseInt(input[1])) + "</h1>");
+    </script>
+</body>
+</html>
